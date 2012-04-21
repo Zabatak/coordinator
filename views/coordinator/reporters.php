@@ -96,9 +96,9 @@ $(document).ready(function() {
 
                 <td>
                     <input type="hidden" name="reporter[<?php echo $reporter->id ?>][user_id]" value="<?php echo $reporter->user->id ?>" />
-                    <input type="text" value="<?php echo $reporter->lat ?>" id="reporter_lat<?php echo $reporter->id ?>" name="reporter[<?php echo $reporter->id ?>][lat]" readonly="readonly"></td>
+                    <input type="text" value="<?php echo $reporter->lat ?>" id="reporter_lat<?php echo $reporter->id ?>" name="reporter[<?php echo $reporter->id ?>][lat]" ></td>
                 <td>
-                    <input type="text" value="<?php echo $reporter->lng ?>" id="reporter_lng<?php echo $reporter->id ?>" name="reporter[<?php echo $reporter->id ?>][lng]" readonly="readonly"> 
+                    <input type="text" value="<?php echo $reporter->lng ?>" id="reporter_lng<?php echo $reporter->id ?>" name="reporter[<?php echo $reporter->id ?>][lng]" > 
                 </td>
             </tr>
         <?php endforeach; ?>
